@@ -1,0 +1,11 @@
+Feature: Robot can calculate car discounts
+
+So that I can do my homework
+As a computer programmer
+I want to create a robot that can work out the price of a car after its discount
+
+Scenario: A company is selling cars at a discount of 17% off list price
+
+Given a deal-calculating robot
+When I tell it the list price of a car 
+Then it will tell me the new price of the car
